@@ -1,0 +1,134 @@
+.main-section {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.sub-section {
+  padding: 60px;
+  border-radius: 10px;
+  background-color: rgba(245, 247, 255, 0.85);
+}
+h2,
+p {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+.input-group .form-control {
+  padding: 1.063rem 3.75rem;
+}
+.img-icon {
+  position: absolute;
+  left: 21px;
+  top: 20px;
+  right: 10px;
+  z-index: 999;
+}
+.title {
+  font-family: "Abdoullah Ashgar EL-kharef Regular", sans-serif;
+  font-size: 42px;
+  font-weight: 400px;
+  line-height: 50px;
+  color: #2d2d2d;
+}
+.main-title {
+  font-size: 56x;
+  line-height: 67.2px;
+  margin-top: 45px;
+}
+.text {
+  font-size: 24px;
+  line-height: 38px;
+  padding: 20px 0 40px 0;
+  color: #1f1249;
+}
+.hidden-text {
+  display: none;
+}
+#userMail {
+  color: #1f1249;
+  display: block;
+  margin-top: 20px;
+}
+.custom-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(113.87deg, #2663df 14.81%, #758ff0 88.76%);
+  box-shadow: 0px 6px 18px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.custom-btn:hover {
+  background-image: linear-gradient(113.87deg, #2663df 14.81%, #758ff0 88.76%);
+  box-shadow: 0px 6px 18px;
+  color: #fff;
+}
+.success-logedin {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+/*responsive*/
+@media (max-width: 992.99px) {
+  body {
+    background: rgba(245, 247, 255, 0.85);
+  }
+  .main-section {
+    background: transparent;
+  }
+  .sub-section {
+    padding: 40px 25px;
+    background-color: transparent;
+    text-align: center;
+  }
+
+  .custom-btn {
+    width: 100%;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 40px;
+  }
+  .main-title {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 40px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0 40px 0;
+  }
+  .hidden-text {
+    display: flex;
+    justify-content: center;
+  }
+  .success-logedin {
+    justify-content: center;
+  }
+  .success-logedin .title {
+    font-size: 32px;
+    margin-top: 140px;
+  }
+  #userMail {
+    margin-top: 40px;
+  }
+}
